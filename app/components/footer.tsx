@@ -1,3 +1,4 @@
+/*
 function ArrowIcon() {
   return (
     <svg
@@ -14,32 +15,38 @@ function ArrowIcon() {
     </svg>
   )
 }
+*/
 
 export default function Footer() {
   return (
     <footer className="mb-16">
 
-      <hr className="border-netural-300 dark:border-neutral-700" />
+      <hr className="border-neutral-300 dark:border-neutral-700" />
 
-      <ul className="font-sm mt-8 flex flex-col space-x-0 space-y-2 text-neutral-600 md:flex-row md:space-x-4 md:space-y-0 dark:text-neutral-300 italic">
+      <div className="mt-4 flex flex-row justify-between items-center">
 
-        <li>
-          <a className="transition-all hover:text-neutral-800 dark:hover:text-neutral-100" href="mailto:darViloria04@gmail.com">email</a>
-        </li>
+        <ul className="ml-0 text-base flex flex-row space-x-4 text-neutral-600 dark:text-neutral-300 italic">
 
-        <li>
-          <a className="transition-all hover:text-neutral-800 dark:hover:text-neutral-100" href="https://github.com/wirydotrocks">github</a>
-        </li>
+         <li>
+           <a className="transition-all hover:text-neutral-800 dark:hover:text-neutral-100" href="mailto:darViloria04@gmail.com">email</a>
+         </li>
 
-        <li>
-          <a className="transition-all hover:text-neutral-800 dark:hover:text-neutral-100" href="https://linkedin.com/in/darViloria04">linkedin</a>
-        </li>
+         <li>
+           <a className="transition-all hover:text-neutral-800 dark:hover:text-neutral-100" href="https://github.com/wirydotrocks">github</a>
+         </li>
 
-      </ul>
+         <li>
+           <a className="transition-all hover:text-neutral-800 dark:hover:text-neutral-100" href="https://linkedin.com/in/darViloria04">linkedin</a>
+         </li>
 
-      <p className="mt-8 font-xs text-neutral-600 dark:text-neutral-300 italic">
-        @ {new Date().getFullYear()} Darren Viloria 
-      </p>
+         </ul>
+
+
+        <p className="font-xs text-neutral-600 dark:text-neutral-300 italic">
+          @ {new Date().getFullYear()} Darren Viloria 
+        </p>
+
+      </div>
 
     </footer>
   )

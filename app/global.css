@@ -56,8 +56,15 @@ li{
   margin-left: 2rem;
 }
 
+footer li{
+  font-size: 1.1rem;
+  margin-left: 0rem;
+}
 
-
+footer li + li{
+  font-size: 1.1rem;
+  margin-left: 1rem;
+}
 
 
 :root {
