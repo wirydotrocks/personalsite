@@ -2,19 +2,25 @@ import Link from 'next/link'
 
 const navItems = {
   '/': {
-    name: 'home',
+    name: '[/]',
   },
   '/blog': {
-    name: 'blog',
+    name: '[/blog]',
+  },
+  '/gallery': {
+    name: '[/gallery]',
+  },
+  '/resume': {
+    name: '[/resume]',
   },
   'https://vercel.com/templates/next.js/portfolio-starter-kit': {
-    name: 'deploy',
+    name: '[/placeholder(s)]',
   },
 }
 
 export function Navbar() {
   return (
-    <aside className="-ml-[8px] mb-16 tracking-tight">
+    <aside className="-ml-[8px] mb-10 tracking-tight">
       <div className="lg:sticky lg:top-20">
         <nav
           className="flex flex-row items-start relative px-0 pb-0 fade md:overflow-auto scroll-pr-6 md:relative"
@@ -34,6 +40,10 @@ export function Navbar() {
             })}
           </div>
         </nav>
+        
+          <hr className="border-netural-300 dark:border-neutral-700" />
+
+
       </div>
     </aside>
   )
