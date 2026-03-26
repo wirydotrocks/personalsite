@@ -60,7 +60,7 @@ export function Navbar() {
 
         </nav>
         
-          <hr className="border-netural-300 dark:border-neutral-700 ml-2" />
+          <hr/>
 
 
       </div>

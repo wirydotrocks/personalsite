@@ -73,13 +73,13 @@ footer li + li{
 
 
 html {
-  background-color: white;
-  color: black; 
+  background-color: #F4F2CD;
+  color: var(--color-lime-900); 
 }
 
 html.dark {
-  background-color: black;
-  color: white; 
+  background-color: #0A070D;
+  color: #B59CC2; 
 }
 
 

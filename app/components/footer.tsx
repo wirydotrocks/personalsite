@@ -21,7 +21,7 @@ export default function Footer() {
   return (
     <footer className="mb-16">
 
-      <hr className="border-neutral-300 dark:border-neutral-700" />
+      <hr/>
 
       <div className="mt-4 flex flex-row justify-between items-center">
 
