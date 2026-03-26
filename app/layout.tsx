@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     title: 'Darrens Website',
     description: 'My website that showcases my cool stuff.',
     url: baseUrl,
-    siteName: 'Darrens Wesite',
+    siteName: 'Darrens Website',
     locale: 'en_US',
     type: 'website',
   },
