@@ -15,10 +15,10 @@ export const metadata: Metadata = {
     default: 'Darren Viloria',
     template: '%s | Darrens Personal Website',
   },
-  description: 'This is my website.',
+  description: 'My website that showcases my cool stuff.',
   openGraph: {
-    title: 'My Website',
-    description: 'This is my Website.',
+    title: 'Darrens Website',
+    description: 'My website that showcases my cool stuff.',
     url: baseUrl,
     siteName: 'My Website',
     locale: 'en_US',
