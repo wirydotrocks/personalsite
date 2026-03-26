@@ -49,6 +49,7 @@ body {
 }
 
 
+/* Font size formatting */
 
 p{
   font-size: 1.2rem;
@@ -70,17 +71,42 @@ footer li + li{
 }
 
 
-
+/* Colors and Weight for Light and Dark Mode 
+ * Some colors swapped from tailwind colors and just... into hex
+ * Needed !important for darkmode for some reason on my machine.
+ * Havent tried it on lightmode.
+ */
 
 html {
   background-color: #F4F2CD;
-  color: var(--color-lime-900); 
+  color: #365314; 
 }
 
 html.dark {
   background-color: #0A070D;
   color: #B59CC2; 
 }
+
+a:hover{
+  color: #1a2909;  
+  font-weight: 700;
+}
+
+html.dark a:hover{
+  color: #492454 !important;  
+  font-weight: 700;
+}
+
+button:hover {
+  color: #1a2909;
+  font-weight: 700;
+}
+
+html.dark button:hover {
+  color: #492454 !important;
+  font-weight: 700;
+}
+
 
 
 
