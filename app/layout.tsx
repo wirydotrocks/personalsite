@@ -8,6 +8,8 @@ import { SpeedInsights } from '@vercel/speed-insights/next'
 import Footer from './components/footer'
 import { baseUrl } from './sitemap'
 
+import { ThemeProvider } from 'next-themes'
+
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
   title: {
@@ -53,6 +55,9 @@ export default function RootLayout({
       )}
     >
       <body className="antialiased max-w-6xl mx-8 mt-8 lg:mx-auto">
+
+        <ThemeProvider attribute="class">
+
         <main className="flex-auto min-w-0 mt-6 flex flex-col px-2 md:px-0">
           <Navbar />
           {children}
@@ -60,6 +65,9 @@ export default function RootLayout({
           <Analytics />
           <SpeedInsights />
         </main>
+
+        </ThemeProvider>
+
       </body>
     </html>
   )
