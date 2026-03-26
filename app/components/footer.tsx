@@ -17,7 +17,23 @@ function ArrowIcon() {
 }
 */
 
+'use client'
+import { useState } from 'react'
+
+
 export default function Footer() {
+
+
+  const [copied, setCopied] = useState(false)
+
+  const handleCopy = () => {
+    navigator.clipboard.writeText('darViloria04@gmail.com')
+    setCopied(true)
+    setTimeout(() => setCopied(false), 2000)
+  }
+
+
+  
   return (
     <footer className="mb-16">
 
@@ -28,15 +44,17 @@ export default function Footer() {
         <ul className="ml-0 text-sm flex flex-row space-x-4 italic">
 
          <li>
-           <a className="transition-all" href="mailto:darViloria04@gmail.com">email</a>
+           <a className="transition-all cursor-pointer" onClick={handleCopy}>
+            {copied ? 'copied!' : 'email'}
+           </a>
          </li>
 
          <li>
-           <a className="transition-all" href="https://github.com/wirydotrocks">github</a>
+           <a className="transition-all" href="https://github.com/wirydotrocks" target="_blank">github</a>
          </li>
 
          <li>
-           <a className="transition-all" href="https://linkedin.com/in/darViloria04">linkedin</a>
+           <a className="transition-all" href="https://linkedin.com/in/darViloria04" target="_blank">linkedin</a>
          </li>
 
          </ul>
