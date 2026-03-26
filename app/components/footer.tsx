@@ -25,24 +25,24 @@ export default function Footer() {
 
       <div className="mt-4 flex flex-row justify-between items-center">
 
-        <ul className="ml-0 text-base flex flex-row space-x-4 text-neutral-600 dark:text-neutral-300 italic">
+        <ul className="ml-0 text-sm flex flex-row space-x-4 italic">
 
          <li>
-           <a className="transition-all hover:text-neutral-800 dark:hover:text-neutral-100" href="mailto:darViloria04@gmail.com">email</a>
+           <a className="transition-all" href="mailto:darViloria04@gmail.com">email</a>
          </li>
 
          <li>
-           <a className="transition-all hover:text-neutral-800 dark:hover:text-neutral-100" href="https://github.com/wirydotrocks">github</a>
+           <a className="transition-all" href="https://github.com/wirydotrocks">github</a>
          </li>
 
          <li>
-           <a className="transition-all hover:text-neutral-800 dark:hover:text-neutral-100" href="https://linkedin.com/in/darViloria04">linkedin</a>
+           <a className="transition-all" href="https://linkedin.com/in/darViloria04">linkedin</a>
          </li>
 
          </ul>
 
 
-        <p className="font-xs text-neutral-600 dark:text-neutral-300 italic">
+        <p className="font-xs italic">
           @ {new Date().getFullYear()} Darren Viloria 
         </p>
 

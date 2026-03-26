@@ -8,12 +8,10 @@ export default function Page() {
         Darren Viloria 
       </h1>
 
-     <h3 className="mb-6 text-xl text-neutral-400">
+     <h3 className="mb-6 text-xl">
         CS Major @ CCNY
       </h3>
-
-
-
+      
       
       <div className="mb-16 flex flex-col gap-1">
         <p>I am currently a Computer Science student that loves learning about Frontend.</p>

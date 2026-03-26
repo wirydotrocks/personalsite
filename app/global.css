@@ -1,4 +1,7 @@
 @import 'tailwindcss';
+@variant dark (&:where(.dark, .dark *));
+
+
 
 ::selection {
   background-color: #47a3f3;
@@ -67,6 +70,26 @@ footer li + li{
 }
 
 
+
+
+html {
+  background-color: white;
+  color: black; 
+}
+
+html.dark {
+  background-color: black;
+  color: white; 
+}
+
+
+
+
+
+
+
+
+
 :root {
   --sh-class: #2d5e9d;
   --sh-identifier: #354150;
@@ -79,6 +102,10 @@ footer li + li{
   --sh-entity: #e25a1c;
 }
 
+/* 
+
+Whole thing messed with tailwind light/dark mode. 1 hr bug just to turn this off.
+
 @media (prefers-color-scheme: dark) {
   :root {
     --sh-class: #4c97f8;
@@ -90,6 +117,8 @@ footer li + li{
     color-scheme: dark;
   }
 }
+
+*/
 
 html {
   min-width: 360px;
