@@ -77,8 +77,13 @@ footer li + li{
  * Havent tried it on lightmode.
  */
 
+body {
+  min-height: 100vh;
+  background: transparent;
+}
+
 html {
-  background: linear-gradient(to bottom, #FEFDE7, #e9e9c6); 
+  background: linear-gradient(to bottom, #FEFDE7, #eef0cb); 
   color: #365314; 
 }
 
