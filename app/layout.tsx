@@ -49,6 +49,7 @@ export default function RootLayout({
       lang="en"
       suppressHydrationWarning
       className={cx(
+        'text-sm',
         GeistSans.variable,
         GeistMono.variable
       )}

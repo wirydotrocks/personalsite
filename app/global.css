@@ -78,12 +78,12 @@ footer li + li{
  */
 
 html {
-  background-color: #F4F2CD;
+  background: linear-gradient(to bottom, #FEFDE7, #e9e9c6); 
   color: #365314; 
 }
 
 html.dark {
-  background-color: #0A070D;
+  background: linear-gradient(to bottom, #0A070D, #1c1225);
   color: #B59CC2; 
 }
 
