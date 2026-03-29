@@ -40,7 +40,7 @@ export const CurrentlyListening= ({ userName, apiKey}) => {
       { name: songName, artist: { '#text': artistName } = {} } = {}
     ] = track;
   
-    return <h3>Currently listening to: {songName} by {artistName}</h3>;
+    return <h3>Now Listening... "{songName}" by {artistName}</h3>;
   };
 
   return buildLastFmData();

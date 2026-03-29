@@ -22,7 +22,7 @@ export default function Page() {
         Column 1
           <CurrentlyListening 
             userName={'wirydotrocks'}
-            apiKey={'4b1de47e5bcfd5901e2e52cfcaeb1191'}
+            apiKey={process.env.NEXT_PUBLIC_LASTFM_API_KEY}
           />
         </div>
 
