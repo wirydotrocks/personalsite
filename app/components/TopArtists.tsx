@@ -43,8 +43,14 @@ export const TopArtists = ({ userName, apiKey }: {userName: string; apiKey: stri
         >
           {artists.map((artist:any, i: number) => (
             <li key={artist.name}>
-              <a href={artist.url} target="_blank">
+              <a 
+              href={artist.url} 
+              target="_blank"
+              className="cursor-pointer hover:underline"
+              >
+
                 {artist.name}
+
               </a>
             </li>
           ))}
