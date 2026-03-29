@@ -38,7 +38,7 @@ export default function Page() {
 
        <TopArtists
           userName={'wirydotrocks'}
-          apiKey={process.env.NEXT_PUBLIC_LASTFM_API_KEY}
+          apiKey={process.env.NEXT_PUBLIC_LASTFM_API_KEY ?? ''}
        />
 
       </div>
@@ -51,7 +51,7 @@ export default function Page() {
 
        <TopAlbums
           userName={'wirydotrocks'}
-          apiKey={process.env.NEXT_PUBLIC_LASTFM_API_KEY}
+          apiKey={process.env.NEXT_PUBLIC_LASTFM_API_KEY ?? ''}
        />
 
 
