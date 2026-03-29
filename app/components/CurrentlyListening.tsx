@@ -47,7 +47,7 @@ export const CurrentlyListening= ({ userName, apiKey}) => {
         className="text-2xl text-center italic font-bold whitespace-nowrap"
         >
 
-         Now Listening... "{songName}" by {artistName}
+         Now Listening... "{songName}" by {artistName} &nbsp;&nbsp;&nbsp;&nbsp;
 
         </h3>
       </Marquee>
