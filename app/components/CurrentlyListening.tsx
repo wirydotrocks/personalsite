@@ -35,10 +35,9 @@ export const CurrentlyListening= ({ userName, apiKey}) => {
     if (!track) {
       return <p>Loading</p>;
     }
-  
-    const [
-      { name: songName, artist: { '#text': artistName } = {} } = {}
-    ] = track;
+
+    const songName = track[0]?.name;
+    const artistName = track[0]?.artist?.['#text'];
   
     return <h3>Now Listening... "{songName}" by {artistName}</h3>;
   };
