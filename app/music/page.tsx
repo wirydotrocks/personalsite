@@ -1,6 +1,6 @@
 // import { BlogPosts } from 'app/components/posts'
 
-import { CurrentlyListening } from 'app/components/CurrentlyListening.tsx';
+import { CurrentlyListening } from 'app/components/CurrentlyListening';
 
 export default function Page() {
   return (
