@@ -9,7 +9,7 @@ import React, { useState, useEffect } from 'react';
  */
 
 export const CurrentlyListening= ({ userName, apiKey}) => {
-  const[lfmData, updateLfmData] = useState({});
+  const[lfmData, updateLfmData] = useState<any>({});
   useEffect(() => {
     fetch(`https://ws.audioscrobbler.com/2.0/?method=user.getRecentTracks&user=${userName}&api_key=${apiKey}&limit=1&nowplaying=true&format=json`)
       .then(response => {
