@@ -1,6 +1,5 @@
 'use client';
 import React, { useState, useEffect } from 'react';
-import Marquee from 'react-fast-marquee';
 
 export const TopAlbums = ({ userName, apiKey }: {userName: string; apiKey: string }) => {
   const[lfmData, updateLfmData] = useState<any>({});
