@@ -23,14 +23,14 @@ export default function Page() {
 
 
 
-      <div className="flex flex-wrap">
+      <div className="flex flex-wrap pt-8">
 
-        <div className="w-full md:w-1/2 p-4">
+        <div className="text-2xl w-full md:w-1/2">
         Column 1
        </div>
 
 
-        <div className="w-full md:w-1/2 p-4">
+        <div className=" text-2xl w-full md:w-1/2">
         Column 2
         </div>
 

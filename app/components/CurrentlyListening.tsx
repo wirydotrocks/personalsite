@@ -44,7 +44,7 @@ export const CurrentlyListening= ({ userName, apiKey}) => {
 
       <Marquee>
         <h3
-        className="text-2xl text-center italic font-bold whitespace-nowrap"
+        className="text-2xl text-center italic font-bold whitespace-nowrap pb-8"
         >
 
          Now Listening... "{songName}" by {artistName} &nbsp;&nbsp;&nbsp;&nbsp;
