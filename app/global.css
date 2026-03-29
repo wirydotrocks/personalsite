@@ -116,7 +116,23 @@ html.dark button:hover {
 
 
 
+/*
+ *  Animations!
+ */
 
+@keyframes marquee {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(-50%); }
+}
+
+@utility animate-marquee {
+  animation: marquee 10s linear infinite;
+}
+
+.marquee-track {
+  display: flex;
+  width: max-content;
+}
 
 
 

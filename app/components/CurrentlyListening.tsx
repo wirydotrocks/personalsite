@@ -1,5 +1,6 @@
 'use client';
 import React, { useState, useEffect } from 'react';
+import Marquee from 'react-fast-marquee';
 
 /*
  * Learned how to handle the LastFM API through this website.
@@ -39,7 +40,20 @@ export const CurrentlyListening= ({ userName, apiKey}) => {
     const songName = track[0]?.name;
     const artistName = track[0]?.artist?.['#text'];
   
-    return <h3>Now Listening... "{songName}" by {artistName}</h3>;
+    return( 
+
+      <Marquee>
+        <h3
+        className="text-2xl text-center italic font-bold whitespace-nowrap"
+        >
+
+         Now Listening... "{songName}" by {artistName}
+
+        </h3>
+      </Marquee>
+
+    );
+  
   };
 
   return buildLastFmData();

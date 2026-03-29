@@ -19,6 +19,7 @@
     "postcss": "^8.4.35",
     "react": "^19.2.1",
     "react-dom": "^19.2.1",
+    "react-fast-marquee": "^1.6.5",
     "sugar-high": "^0.6.0",
     "tailwindcss": "4.2.2",
     "typescript": "^5"
