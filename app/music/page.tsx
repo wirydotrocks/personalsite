@@ -1,6 +1,9 @@
 // import { BlogPosts } from 'app/components/posts'
 
 import { CurrentlyListening } from 'app/components/CurrentlyListening';
+import { TopArtists } from 'app/components/TopArtists';
+
+
 
 export default function Page() {
   return (
@@ -26,11 +29,19 @@ export default function Page() {
       <div className="flex flex-wrap pt-8">
 
         <div className="text-2xl w-full md:w-1/2">
-        Column 1
-       </div>
+          <h1 className="underline pb-4">
+            Top Artists
+          </h1>
+ 
 
+       <TopArtists
+          userName={'wirydotrocks'}
+          apiKey={process.env.NEXT_PUBLIC_LASTFM_API_KEY}
+       />
 
-        <div className=" text-2xl w-full md:w-1/2">
+      </div>
+
+       <div className=" text-2xl w-full md:w-1/2">
         Column 2
         </div>
 
