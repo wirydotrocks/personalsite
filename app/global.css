@@ -85,11 +85,13 @@ body {
 html {
   background: linear-gradient(to bottom, #FEFDE7, #eef0cb); 
   color: #365314; 
+  --fade-end: #a5b88f;
 }
 
 html.dark {
   background: linear-gradient(to bottom, #0A070D, #1c1225);
   color: #B59CC2; 
+  --fade-end: #493457;
 }
 
 a:hover{

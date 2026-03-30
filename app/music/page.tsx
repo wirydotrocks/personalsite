@@ -31,7 +31,7 @@ export default function Page() {
       <div className="flex flex-wrap pt-8">
 
         <div className="text-2xl w-full md:w-1/2">
-          <h1 className="underline pb-4">
+          <h1 className="underline pb-4 font-bold">
             Top Artists
           </h1>
  
@@ -44,7 +44,7 @@ export default function Page() {
       </div>
 
        <div className="text-2xl w-full md:w-1/2 pb-4">
-          <h1 className="underline pb-4">
+          <h1 className="underline pb-4 font-bold">
             Top Albums
           </h1>
  
@@ -53,7 +53,6 @@ export default function Page() {
           userName={'wirydotrocks'}
           apiKey={process.env.NEXT_PUBLIC_LASTFM_API_KEY ?? ''}
        />
-
 
 
 

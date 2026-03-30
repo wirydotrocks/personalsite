@@ -39,7 +39,7 @@ export const TopArtists = ({ userName, apiKey }: {userName: string; apiKey: stri
     return( 
 
         <ol
-          className="list-decimal font-bold whitespace-nowrap pb-8"
+          className="list-decimal font-bold whitespace-nowrap pb-8 pl-4"
         >
           {artists.map((artist:any, i: number) => (
             <li key={artist.name}>

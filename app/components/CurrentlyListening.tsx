@@ -42,15 +42,20 @@ export const CurrentlyListening= ({ userName, apiKey}) => {
   
     return( 
 
+    <div  
+      className="flex items-center rounded-md border-2 border-l-0 border-r-0 var(--fade-end)"
+      style={{background: 'linear-gradient(to right, transparent, var(--fade-end))'
+      }}>
       <Marquee>
         <h3
-        className="text-2xl text-center italic font-bold whitespace-nowrap pb-8"
+        className="text-2xl text-center italic font-bold whitespace-nowrap pb-4 pt-4"
         >
 
          Now Listening... "{songName}" by {artistName} &nbsp;&nbsp;&nbsp;&nbsp;
 
         </h3>
       </Marquee>
+    </div>
 
     );
   
