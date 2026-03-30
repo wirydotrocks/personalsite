@@ -94,7 +94,7 @@ html {
 html.dark {
   background: url('/sparkle-dark.svg'), linear-gradient(to bottom, #0A070D, #1c1225);
   color: #B59CC2; 
-  --fade-end: #cbb1d9;
+  --fade-end: #9177a3;
   background-repeat: repeat, no-repeat;
   background-size: 150px 150px, cover;
   min-height: 100vh;
