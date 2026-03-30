@@ -50,8 +50,11 @@ export const CurrentlyListening= ({ userName, apiKey}) => {
         <h3
         className="text-2xl text-center italic font-bold whitespace-nowrap pb-4 pt-4"
         >
+          <a href={track[0]?.url} target="_blank" rel="noreferrer">
 
-         Now Listening... "{songName}" by {artistName} &nbsp;&nbsp;&nbsp;&nbsp;
+            Now Listening... "{songName}" by {artistName} &nbsp;&nbsp;&nbsp;&nbsp;
+
+          </a>
 
         </h3>
       </Marquee>
