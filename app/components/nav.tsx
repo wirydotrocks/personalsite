@@ -6,11 +6,11 @@ const navItems = {
   '/': {
     name: '[/]',
   },
+  '/projects': {
+    name: '[/projects]',
+  },
   '/music': {
     name: '[/music]',
-  },
-  '/blog': {
-    name: '[/blog]',
   },
   '/gallery': {
     name: '[/gallery]',
