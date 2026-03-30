@@ -45,7 +45,7 @@ export default function Page() {
           <p>We as human beings always want to put our best face forward and show everyone the best version of ourselves.</p>
           <p>However, this robotic perfectionism never shows the true face of someone that works very hard to get to where they want to.</p>
 
-          <blockquote className="text-center text-xl italic font-bold my-12">
+          <blockquote className="text-center text-2xl italic font-bold my-12">
           “I want to make the effort to change, even if only gradually.”
           </blockquote>
 
