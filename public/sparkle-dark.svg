@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+  <path 
+  opacity=".12"
+  transform="rotate(-15, 50, 50)" 
+  d="M50,15 C50,15 53,47 85,50 C53,53 50,85 50,85 C50,85 47,53 15,50 C47,47 50,15 50,15 Z" 
+  fill="#493457"/>
+</svg>
