@@ -22,24 +22,29 @@ export default function Page() {
         
 
 
-      <h1 className="mb-.8 text-3xl font-bold tracking-tighter">
-        Music
-      </h1>
-
-
-
       <div className="flex flex-wrap pt-8">
 
         <div className="text-2xl w-full md:w-1/2">
+
           <h1 className="underline pb-4 font-bold">
             Top Artists
           </h1>
  
-
        <TopArtists
           userName={'wirydotrocks'}
           apiKey={process.env.NEXT_PUBLIC_LASTFM_API_KEY ?? ''}
        />
+
+          <h1 className="underline pb-4 font-bold">
+            Music Gear 
+          </h1>
+
+          <ul className="list-disc">
+            <li>Yamaha Pacifica 611VFM</li>
+            <li>Fender Mustang LT25</li>
+            <li>Focusrite Scarlet Solo</li>
+          </ul>
+ 
 
       </div>
 
