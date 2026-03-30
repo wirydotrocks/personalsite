@@ -43,6 +43,10 @@ export default function Page() {
             <li>Yamaha Pacifica 611VFM</li>
             <li>Fender Mustang LT25</li>
             <li>Focusrite Scarlet Solo</li>
+            <li>FiiO M21 Digital Audio Player</li>
+            <li>7hz Salnote Zero 2 In Ear Monitors</li>
+            <li>Kbear07 Eartips</li>
+            <li>Tripowin Zowie Cable</li>
           </ul>
  
 
