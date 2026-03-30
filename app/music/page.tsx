@@ -63,6 +63,22 @@ export default function Page() {
 
         </div>
 
+        <div>
+
+          <h1 className="text-2xl font-bold pt-16 underline"> 
+          Powered by LastFM 
+          </h1>
+
+          <p>These are my Top 10 Artists, and my 3x3 grid on my favorite albums.</p>
+          <p>This is updated through the LastFM API, and adjusts accordingly!</p>
+          <p>
+           Feel free to click around or maybe even 
+           <a href="https://last.fm/user/wirydotrocks" target="_blank" className="font-bold"> follow me on LastFM!</a>
+          </p>
+
+        </div>
+
+
       </div>
 
      </section>
