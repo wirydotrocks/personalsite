@@ -39,7 +39,7 @@ export default function Footer() {
 
       <hr/>
 
-      <div className="mt-4 flex flex-row justify-between items-center">
+      <div className="mt-4 flex flex-col md:flex-row md:justify-between md:items-center gap-2">
 
         <ul className="ml-0 text-sm flex flex-row space-x-4 italic">
 

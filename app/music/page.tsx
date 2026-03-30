@@ -39,7 +39,7 @@ export default function Page() {
             Music Gear 
           </h1>
 
-          <ul className="list-disc">
+          <ul className="list-disc pb-4">
             <li>Yamaha Pacifica 611VFM</li>
             <li>Fender Mustang LT25</li>
             <li>Focusrite Scarlet Solo</li>

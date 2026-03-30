@@ -54,7 +54,7 @@ export default function RootLayout({
         GeistMono.variable
       )}
     >
-      <body className="antialiased max-w-6xl mx-8 mt-8 lg:mx-auto">
+      <body className="text-sm md:text-base antialiased max-w-6xl mx-4 md:mx-8 mt-8 lg:mx-auto">
 
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
 
