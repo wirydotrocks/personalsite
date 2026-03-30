@@ -67,7 +67,7 @@ export default function Page() {
 
         </div>
 
-        <div>
+        <div className="pb-16">
 
           <h1 className="text-2xl font-bold pt-16 underline"> 
           Powered by LastFM 
