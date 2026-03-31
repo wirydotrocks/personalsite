@@ -1,4 +1,10 @@
-// import { BlogPosts } from 'app/components/posts'
+
+const photos = [
+  { title: "herta", image: "/images/drawings"}
+
+
+]
+
 
 export default function Page() {
   return (

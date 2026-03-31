@@ -7,7 +7,7 @@ import { TopAlbums } from 'app/components/TopAlbums';
 
 
 
-export default function Page() {
+export default function MusicPage() {
   return (
     <section>
 
