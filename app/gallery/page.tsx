@@ -6,7 +6,7 @@ export default function Page() {
 
     <h1 className="text-3xl font-bold"
     > 
-    Projects
+    Gallery 
     </h1>
 
     </section>
