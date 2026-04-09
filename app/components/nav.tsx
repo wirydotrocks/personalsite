@@ -2,6 +2,11 @@
 import { Link } from 'next-view-transitions'
 import { useTheme } from 'next-themes'
 
+type NavItem = {
+  name: string
+  newTab?: boolean
+}
+
 const navItems = {
   '/': {
     name: '[/]',
