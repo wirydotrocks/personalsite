@@ -7,7 +7,7 @@ type NavItem = {
   newTab?: boolean
 }
 
-const navItems = {
+const navItems: Record<string, NavItem> = {
   '/': {
     name: '[/]',
   },
