@@ -14,14 +14,14 @@ export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
   title: {
     default: 'Darren Viloria',
-    template: '%s | Darrens Personal Website',
+    template: '%s | Darren&apos;s Personal Website',
   },
   description: 'My website that showcases my cool stuff.',
   openGraph: {
-    title: 'Darrens Website',
+    title: 'Darren&apos;s Website',
     description: 'My website that showcases my cool stuff.',
     url: baseUrl,
-    siteName: 'Darrens Website',
+    siteName: 'Darren&apos;s Website',
     locale: 'en_US',
     type: 'website',
   },
