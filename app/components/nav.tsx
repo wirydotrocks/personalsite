@@ -18,8 +18,9 @@ const navItems = {
   '/resume': {
     name: '[/resume]',
   },
-  'https://vercel.com/templates/next.js/portfolio-starter-kit': {
-    name: '[/placeholder(s)]',
+  'https://sandbox-kappa-six.vercel.app/': {
+    name: '[/sandbox]',
+    newTab: true,
   },
 }
 
@@ -36,11 +37,12 @@ export function Navbar() {
           id="nav"
         >
           <div className="flex flex-row space-x-0 pr-10 overflow-x-auto">
-            {Object.entries(navItems).map(([path, { name }]) => {
+            {Object.entries(navItems).map(([path, { name, newTab }]) => {
               return (
                 <Link
                   key={path}
                   href={path}
+                  target={newTab ? "_blank" : undefined}
                   className="transition-all flex align-middle relative py-1 px-2 m-1"
                 >
                   {name}
